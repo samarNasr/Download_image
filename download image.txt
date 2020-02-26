@@ -1,0 +1,8 @@
+
+<script src="http://danml.com/js/download.js?v3.1"></script>
+
+
+
+$("#cv").on('click', '.CvImg', function () {
+        download($(this).attr('src'));
+    });
